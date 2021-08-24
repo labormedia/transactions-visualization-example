@@ -194,38 +194,9 @@ const App = ({
   return width < 10 ? null : (
     <svg width={width} height={height}>
       <rect x={0} y={0} width={width} height={height} rx={14} fill={background} />
-      {/* <Group top={margin.top} left={margin.left}>
-        <HeatmapCircle
-          data={binData}
-          xScale={d => xScale(d) ?? 0}
-          yScale={d => yScale(d) ?? 0}
-          colorScale={circleColorScale}
-          opacityScale={opacityScale}
-          radius={radius}
-          gap={2}
-        >
-          {heatmap =>
-            heatmap.map(heatmapBins =>
-              heatmapBins.map(bin => (
-                <circle
-                  key={`heatmap-circle-${bin.row}-${bin.column}`}
-                  className="visx-heatmap-circle"
-                  cx={bin.cx}
-                  cy={bin.cy}
-                  r={bin.r}
-                  fill={bin.color}
-                  fillOpacity={bin.opacity}
-                  onClick={() => {
-                    if (!events) return;
-                    const { row, column } = bin;
-                    alert(JSON.stringify({ row, column, bin: bin.bin }));
-                  }}
-                />
-              )),
-            )
-          }
-        </HeatmapCircle>
-      </Group> */}
+      <Group top={margin.top} left={margin.left}>
+        <text><tspan font-weight="bold" font-size="40px" x="40" y="40" fill="white">Realtime Transactions Visualization</ tspan></text>
+      </Group>
       <Group top={margin.top} left={xMax + margin.left + separation}>
         <HeatmapRect
           data={binData}
