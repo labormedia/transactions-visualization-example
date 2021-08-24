@@ -1,0 +1,51 @@
+{
+  "name": "transactions-visualization-example",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@visx/group": "^2.1.0",
+    "@visx/heatmap": "^2.1.0",
+    "@visx/mock-data": "^2.1.0",
+    "@visx/network": "^2.1.0",
+    "@visx/responsive": "^2.1.0",
+    "@visx/scale": "^2.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2",
+    "websocket": "^1.0.34"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/websocket": "^1.0.4"
+  }
+}
