@@ -10,6 +10,11 @@ The visualization shows a grid of origin and target addresses of recent transact
 
 ## Installation
 
+Clone the git repository:
+```
+git clone https://github.com/labormedia/transactions-visualization-example.git
+```
+
 Create a .env file on the root folder of this project, with the following information from your provider:
 
 ```
@@ -19,7 +24,7 @@ WEB3_USERNAME=XXXXXXXXXXX   # your providers's username
 WEB3_PASSWORD=XXXXXXXXXXX   # your providers's password
 ```
 
-## install
+## install dependencies
 
 `npm install`
 
@@ -31,3 +36,4 @@ WEB3_PASSWORD=XXXXXXXXXXX   # your providers's password
 ## TODO:
 
 Define and limit the buffer size for fixed visualization size of the bin data. 
+Add more bin visualization types.
