@@ -4,11 +4,13 @@
 
 ## Description
 
-Getting started with Realtime Transaction Visualization through Web3's json-rpc Provider's Websocket Communication. 
+Getting started with Realtime Transaction Visualization through Web3's json-rpc Provider's Websocket Communication.
+This basic example uses a json-rpc stack manager for gathering the requests to json-rpc and comply with usage requests limits you could have.
+The visualization shows a grid of origin and target addresses of recent transactions, and the tiles colors represent how frequent was that particular origin:recipient pair in the pool of vert recent transactions.  
 
 ## Installation
 
-Create a .env file with the following information from your provider:
+Create a .env file on the root folder of this project, with the following information from your provider:
 
 ```
 WEB3_TYPE=wss://            # ws:// or wss://
@@ -17,10 +19,15 @@ WEB3_USERNAME=XXXXXXXXXXX   # your providers's username
 WEB3_PASSWORD=XXXXXXXXXXX   # your providers's password
 ```
 
-## build
+## install
 
-`npm build`
+`npm install`
 
 ## run
 
-`npm start`
+`npm run dev`
+
+
+## TODO:
+
+Define and limit the buffer size for fixed visualization size of the bin data. 
