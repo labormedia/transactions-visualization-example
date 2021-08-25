@@ -15,6 +15,7 @@
     "@visx/network": "^2.1.0",
     "@visx/responsive": "^2.1.0",
     "@visx/scale": "^2.1.0",
+    "json-rpc-stack": "github:labormedia/json-rpc-stack",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -25,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "backend": "node node_modules/json-rpc-stack/examples/rpcstack-ws_server-example.js",
+    "dev": "concurrently --kill-others \"npm run backend\" \"npm start\" "
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/websocket": "^1.0.4"
+    "@types/websocket": "^1.0.4",
+    "concurrently": "^6.2.1"
   }
 }
