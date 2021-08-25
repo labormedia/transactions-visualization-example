@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" width="320" alt="Example Screenshot" />
+  <img src="https://github.com/labormedia/transactions-visualization-example/raw/main/assets/landing.png" width="320" alt="Example Screenshot" />
 </p>
 
 ## Description
