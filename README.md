@@ -35,5 +35,5 @@ WEB3_PASSWORD=XXXXXXXXXXX   # your providers's password
 
 ## TODO:
 
-Define and limit the buffer size for fixed visualization size of the bin data. 
-Add more bin visualization types.
+- Define and limit the buffer size for fixed visualization size of the bin data. 
+- Add more bin visualization types.
