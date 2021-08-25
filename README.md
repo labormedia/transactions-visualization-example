@@ -6,7 +6,7 @@
 
 Getting started with Realtime Transaction Visualization through Web3's json-rpc Provider's Websocket Communication.
 This basic example uses a json-rpc stack manager for gathering the requests to json-rpc and comply with usage requests limits you could have.
-The visualization shows a grid of origin and target addresses of recent transactions, and the tiles colors represent how frequent was that particular origin:recipient pair in the pool of vert recent transactions.  
+The visualization shows a grid of origin and target addresses of recent transactions, and the tiles colors represent how frequent was that particular origin:recipient pair in the pool of recent transactions.
 
 ## Installation
 
@@ -28,10 +28,17 @@ WEB3_PASSWORD=XXXXXXXXXXX   # your providers's password
 
 `npm install`
 
+## build the React project
+
+`npm run build`
+
 ## run
 
 `npm run dev`
 
+Give it a couple of minutes to build & connect the whole project.
+And you are done!
+You can now connect on http://localhost:3000 and watch the visualization grid reconstruct for every transaction that enters through the json-rpc filter.
 
 ## TODO:
 

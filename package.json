@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "backend": "node node_modules/json-rpc-stack/examples/rpcstack-ws_server-example.js",
-    "dev": "concurrently --kill-others \"npm run backend\" \"npm start\" "
+    "dev": "concurrently --kill-others \"npm start\" \"npm run backend\" "
   },
   "eslintConfig": {
     "extends": [
